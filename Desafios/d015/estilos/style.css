@@ -37,21 +37,28 @@ section#telefone {
 }
 section#redes-sociais {
     padding: 5px;
+    text-align: right;
    
 }
-#redes-sociais img {
-    display: block;
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+section#redes-sociais img {    
+    width: 50px;        
     border-radius: 50%;
-    margin-bottom: 5px;        
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; /* Faz a bordar pertencer ao objeto */           
 }
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s, border 0.2s;
+}
+
 iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
     width: 269px;
-    height: 471px;
-    
+    height: 471px;    
 }
+
