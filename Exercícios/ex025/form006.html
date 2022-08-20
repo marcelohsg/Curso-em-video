@@ -8,6 +8,25 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#0000ff">
+        </p>
+        <p>
+            <label for="isatisfacao">Nível de satisfação:</label>
+            <input type="range" name="satisfacao" id="isatisfacao" min="0" max="10">
+        </p>
+        <p>
+            <label for="ifoto">Foto do perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 
 </body>
 </html>
