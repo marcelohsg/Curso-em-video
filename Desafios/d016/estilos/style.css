@@ -4,3 +4,9 @@
     verde: #49a09d
     Rozo: #5f2c82
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
